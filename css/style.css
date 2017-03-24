@@ -1,0 +1,358 @@
+* { 
+	margin:0; 
+	padding:0; 
+} 
+html, body, .wrapper { 
+	height: 100%; 
+
+}
+body{
+	overflow-x:hidden;
+}
+body > .wrapper {
+	height: auto; 
+	min-height: 100%;
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+} 
+
+footer { 
+    position: relative;
+	margin-top: -50px; 
+	min-height: 50px;
+	clear:both;
+	background-color: #43a06d;
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+} 
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { 
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #4f4e4e;
+	
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+header{
+	background-image: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  	-moz-background-size: cover;  
+  	-o-background-size: cover; 
+  	-webkit-background-size: cover; 
+  	background-position: center;
+	height: auto;
+	max-height: 800px;
+}
+.header_logo{
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	padding-top: 70px;
+}
+header h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	line-height: 62px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+header h1 strong{
+	font-weight: bold;
+}
+.top_box{
+	border: 1px solid #efefef;
+	max-width: 335px;
+	height: auto;
+	min-height: 340px;
+	background-color: #fff;
+	z-index: 1;
+	margin: 60px auto;
+}
+header input{
+	width: 270px;
+	margin: 30px auto;
+	border-color: 1px solid #cccdd1;
+	display: block;
+	color: #cccdd1;
+	font-size: 14px;
+	line-height: 23px;
+	padding-left: 15px;
+}
+header .pictures{
+	width: 335px;
+	margin-left: -10px;
+	padding: 0;
+}
+header .pictures img{
+	margin-left: -5px;
+	padding: 0;
+	display: inline-block;
+}
+header p{
+	font-size: 15px;
+	width: 235px;
+	margin: 28px auto;
+	text-align: center;
+	color: #938e8e;
+}
+header .btn{
+	text-transform: uppercase;
+	font-weight: 600;
+	display: block;
+	margin: 30px auto;
+	font-size: 26px;
+}
+.boxes{
+	padding-top: 170px;
+	padding-bottom: 105px;
+	margin: 0 auto;
+}
+.boxes h4{
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+}
+.boxes p{
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: 400;
+	max-width: 290px;
+}
+.media-left{
+	width: 20%;
+	height: 100px;
+}
+.section_1{
+	background-image: url(../img/bg-sect1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover; 
+  	-webkit-background-size: cover;  
+  	background-position: center;
+	height: auto;
+	min-height: 920px;
+}
+.section_1 h2{
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 62px;
+	color: #fff;
+	text-align: center;
+	padding-top: 270px;
+}
+.section_1 p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+	color: #fff;
+	text-align: left;
+	max-width: 670px;
+	margin: auto;
+}
+.section_2{
+	background-image: url(../img/bg-sect2-clean.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover; 
+  	-webkit-background-size: cover;  
+  	background-position: center;
+	height: auto;
+	min-height: 860px;
+	margin-top: -330px;
+	width: auto;
+}
+.section_2 .wide{
+	padding-top: 320px;
+}
+.section_2 h2{
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 62px;
+	color: #fff;
+	text-align: left;
+	padding-top: 320px;
+}
+.section_2 p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+	color: #fff;
+	text-align: left;
+	max-width: 670px;
+	margin: auto;
+}
+.section_2 .btn{
+	border: 3px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	border-radius: 5px;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 28px;
+	margin-top: 65px;
+}
+.section_2 .btn:hover,
+.section_2 .btn.active{
+	background-color: #fff;
+	color: #43a06d;
+}
+.map_section{
+	background-image: url(../img/bg-contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover; 
+  	-webkit-background-size: cover;  
+  	background-position: center;
+	height: auto;
+	min-height: 630px;
+		
+}
+.back_form{
+	max-width: 440px;
+	min-height: 440px;
+	background-color: #fdfdfd;
+	border-radius: 50%;
+	opacity: 0.85;
+	margin: 160px auto;
+	position: relative;
+	display: block;
+}
+.back_form .input-group{
+	margin: 140px auto;
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	padding-left: 15%;
+}
+.back_form .input-group input{
+	width: 280px;
+	margin-bottom: 15px;
+	border-color: 1px solid #cccdd1;
+	color: #cccdd1;
+	font-size: 14px;
+	line-height: 23px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5%;
+}
+.back_form .input-group .form-message{
+	min-height: 80px;
+}
+.back_form .input-group button{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	font-size: 30px;
+	color: #fff;
+	background-color: #43a06d;
+	border: none;
+}
+.back_form .input-group button:hover,
+.back_form .input-group button.active{
+	background-color: #fff;
+	color: #43a06d;
+	border: 1px solid #43a06d;
+}
+footer h3{
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff;
+	text-align: center;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.section_2 h2{
+		padding-top: 250px;
+	}
+	.section_2 .btn{
+		margin-bottom: 10px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header h1{
+		font-size: 40px;
+		line-height: 42px;
+	}
+	.boxes h4{
+		font-size: 25px;
+		line-height: 27px;
+	}
+	.section_2{
+		margin-top: -345px;
+	}
+	.section_2 h2{
+		padding-top: 50px;
+		text-align: center;
+	}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header h1{
+		font-size: 30px;
+		line-height: 32px;
+		}
+	.boxes h4{
+		font-size: 22px;
+		line-height: 24px;
+	}
+	.section_2 .btn{
+		margin-bottom: 10px;
+	}
+	.back_form .input-group input{
+		width: 100%;
+	}
+	.back_form .input-group{
+		padding-left: 23%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.back_form .input-group{
+		padding-left: 15%;
+	}
+	.section_2 h2{
+		margin-top: -90px;
+	}
+	.section_2 img{
+		margin-top: 30px;
+	}
+}
